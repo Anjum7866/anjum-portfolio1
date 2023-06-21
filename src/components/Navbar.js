@@ -23,7 +23,7 @@ class Navbar extends Component {
         return (
              <nav className="glass">
             <>
-             <img src={profilepic} className="profilepic"></img>
+             <img src={profilepic} alt='profilepic' className="profilepic"></img>
             <h2>Anjum <mark>Shaikh</mark></h2>
             <p>Software Developer</p>
             </>
