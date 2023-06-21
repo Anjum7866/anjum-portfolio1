@@ -1,9 +1,9 @@
-import React ,{useState} from "react";
-import { Route, Routes } from "react-router-dom";
-import Navbar from "../components/Navbar";
+// import React ,{useState} from "react";
+// import { Route, Routes } from "react-router-dom";
+// import Navbar from "../components/Navbar";
 // import {ThemeProvider, createGlobalStyle} from 'styled-components';
 
-import '../App.css'
+// import '../App.css'
 
 // const GlobalStyle = createGlobalStyle`
 //   body{
@@ -12,20 +12,20 @@ import '../App.css'
 
 // `
 
-const Layout = () => {
-  // const [theme, setTheme] = useState({ mode: 'light'});
-  return (
-    // <ThemeProvider theme={theme}>
-    <>
-  {/* <GlobalStyle /> */}
-   <Routes>
-            <Route path="/" element={<Navbar/>}/>
-            {/* <Route path="/iPrint" element={<Iprint/>}/> */}
-    </Routes>
+// const Layout = () => {
+//   const [theme, setTheme] = useState({ mode: 'light'});
+//   return (
+//     <ThemeProvider theme={theme}>
+//     <>
+//   <GlobalStyle />
+//    <Routes>
+//             <Route path="/" element={<Navbar/>}/>
+//             {/* <Route path="/iPrint" element={<Iprint/>}/> */}
+//     </Routes>
 
-    </>
-    // </ThemeProvider>
-  );
-};
+//     </>
+//     </ThemeProvider>
+//   );
+// };
 
-export default Layout;
+// export default Layout;

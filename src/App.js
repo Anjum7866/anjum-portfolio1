@@ -1,10 +1,9 @@
 import React from 'react'
-import  Layout  from './pages/Layout'
 
 const App = () => {
   return (
     <div>
-      <Layout/>
+      <h1>Anjum</h1>
     </div>
   )
 }
