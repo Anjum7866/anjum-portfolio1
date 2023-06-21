@@ -1,6 +1,11 @@
 import React ,{useState} from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import Home from "../contents/Home";
+import About from "../contents/About";
+import Contact from "../contents/Contact";
+import Portfolio from "../contents/Portfolio";
+
 import {ThemeProvider, createGlobalStyle} from 'styled-components';
 
 import '../App.css'
@@ -19,8 +24,18 @@ const Layout = () => {
     <>
   <GlobalStyle />
    <Routes>
-            <Route path="/" element={<Navbar/>}/>
-            {/* <Route path="/iPrint" element={<Iprint/>}/> */}
+    
+            <div className="App">
+    <Navbar />
+    <Route path="/" element={<Home/>}/>
+    {/* <Route path="/about" element={<About/>}/>
+    <Route path="/contact" element={<Contact/>}/>
+    <Route path="/portfolio" element={<Portfolio/>}/> */}
+    
+    <div class="back1 glass" onClick={e => setTheme(
+      theme.mode === 'dark' ? {mode: 'light'} : {mode: 'dark'}
+    )}><i class={theme.mode === 'dark' ? "fa fa-sun i1" : "fa fa-moon i1"}></i></div>
+    </div>
     </Routes>
 
     </>
