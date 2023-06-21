@@ -13,7 +13,7 @@ import '../App.css'
 
 const GlobalStyle = createGlobalStyle`
   body{
-  background: linear-gradient(${props => props.theme.mode === 'dark' ? '#923CB5, #000000' : '(#ff758c,#764ba2'});
+  background: linear-gradient(${props => props.theme.mode === 'dark' ? '#b92b27, #1565C0' : '(#ff758c,#764ba2'});
   }
 
 `
