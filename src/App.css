@@ -13,7 +13,7 @@
 }
 body{
   font-family: 'Raleway';
-  background: linear-gradient(#59c173,#a17fe0, #5d26c1);
+  background: linear-gradient(#A1C4FD , #C2E9FB);
 }
 .App
 {
@@ -75,7 +75,7 @@ nav
 {
   font-size: var(--typing-font);
   margin-bottom: 30px;
-  color: #ffffffbf;
+  color: #7f6464bf;
 }
 
 nav ul{
@@ -93,7 +93,7 @@ nav ul li
   margin:15px;
   padding: 11px;
   border-radius: 10px;
-  color: white;
+  color: black;
 }
 nav ul li:hover{
   background-color: #ffffff80;
@@ -111,7 +111,7 @@ a
 }
 p{
   font-size: var(--fontsize-p);
-  color: #ffffffbf;
+  color: #7f6464bf;
   margin: 10px;
 }
 h1{
@@ -358,7 +358,7 @@ mark{
    left: 15px;
 }
 .i2{
-  color: #ffffffbf;
+  color: #7f6464bf;
   padding-right: 10px;
 }
 .i3{
@@ -368,7 +368,7 @@ mark{
   top: 55%;
   left: 4%;
   z-index: 1;
-  background-color: #ffffffbf;
+  background-color: #7f6464bf;
   border-radius: 10px;
 }
 .back3{

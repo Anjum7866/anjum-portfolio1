@@ -25,7 +25,7 @@ class Navbar extends Component {
             <>
              <img src={profilepic} alt='profilepic' className="profilepic"></img>
             <h2>Anjum <mark>Shaikh</mark></h2>
-            <p>Software Developer</p>
+            <p>Software Engineer</p>
             </>
            
              <ul>
