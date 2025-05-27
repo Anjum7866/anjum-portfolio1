@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
 const Layout = () => {
   const [theme, setTheme] = useState({ mode: 'light'});
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme} >
     <>
   <GlobalStyle />
   <div className="App">

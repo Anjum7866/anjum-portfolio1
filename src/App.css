@@ -75,7 +75,7 @@ nav
 {
   font-size: var(--typing-font);
   margin-bottom: 30px;
-  color: #7f6464bf;
+  color: #FAFAFA;
 }
 
 nav ul{
@@ -111,7 +111,7 @@ a
 }
 p{
   font-size: var(--fontsize-p);
-  color: #7f6464bf;
+  color: #FAFAFA;
   margin: 10px;
 }
 h1{
@@ -131,6 +131,10 @@ h3{
 }
 h4{
   font-size: 1.2rem;
+  margin: 24px 0 0 90px;
+}
+h5{
+  font-size: 1.0rem;
   margin: 24px 0 0 90px;
 }
 .p1{
@@ -358,7 +362,7 @@ mark{
    left: 15px;
 }
 .i2{
-  color: #7f6464bf;
+  color: #FAFAFA;
   padding-right: 10px;
 }
 .i3{
@@ -368,7 +372,7 @@ mark{
   top: 55%;
   left: 4%;
   z-index: 1;
-  background-color: #7f6464bf;
+  background-color: #FAFAFA;
   border-radius: 10px;
 }
 .back3{

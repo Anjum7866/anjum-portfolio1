@@ -22,11 +22,20 @@ class About extends Component {
             </div>
             <h4>UpGrad Education Private Limited</h4>
             <p className="p1">Client:- Club Mahindra</p>
+            <h5>Software Engineer</h5>
             <p className="p1"><i class="fa fa-calendar i2"></i>July 2024 - Current</p>
-            <h4>Software Engineer</h4>
-            <p className="p1">Working on member holiday portal based on react(https://holidays.clubmahindra.com/). Also working on api implementation of App (Club Mahindra application)</p>
+           
             {/* <p className="p1"><i class="fa fa-calendar i2"></i>feb 2014</p> */}
-
+            <div className="vr_line glass">
+                <div className="vr_inner inn1"></div>
+                <div className="vr_inner inn2"></div>
+            </div>
+            <br/>
+            <h4>TecnolynxGlobal Private Limited</h4>
+            {/* <p className="p1">Client:- Club Mahindra</p> */}
+            <h5>Junior Software Developer</h5>
+            <p className="p1"><i class="fa fa-calendar i2"></i>May 2023 - July 2024</p>
+            
             <h3 class="sk_head">Skills</h3>
             <div class="sk glass">HTML</div>
             <div class="sk s2 glass">CSS</div>
